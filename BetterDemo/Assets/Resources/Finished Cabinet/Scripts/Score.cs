@@ -6,7 +6,7 @@ public class Score : MonoBehaviour
 {
     private string topline;//the top line of the text box
     private string score;//string score
-    private int score_num;//integer score
+    public int score_num;//integer score
     // Start is called before the first frame update
     void Start()
     {
