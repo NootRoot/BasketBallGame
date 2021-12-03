@@ -5,8 +5,8 @@ using Photon.Realtime;
 using Photon.Pun;
 
 //I didn't include the namespace bit
-namespace Com.UTD.BasketBall
-{
+//namespace Com.UTD.BasketBall
+//{
     public class Launcher : MonoBehaviourPunCallbacks
     {
         #region Private Serializable Fields
@@ -136,4 +136,4 @@ namespace Com.UTD.BasketBall
         #endregion
 
     }
-}
+//}

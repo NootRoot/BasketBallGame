@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
-namespace Com.UTD.BasketBall
-{
+//namespace Com.UTD.BasketBall
+//{
     public class GameManager : MonoBehaviourPunCallbacks
     {
         #region Photon Callbacks
@@ -18,6 +18,20 @@ namespace Com.UTD.BasketBall
         {
             SceneManager.LoadScene(0);
         }
+
+       /* public override void OnPlayerEnteredRoom(Player other)
+        {
+            //Debug.LogFormat("OnPlayerEnteredRoom() {0}", other.NickName); // not seen if you're the player connecting
+
+
+            if (PhotonNetwork.IsMasterClient)
+            {
+                //Debug.LogFormat("OnPlayerEnteredRoom IsMasterClient {0}", PhotonNetwork.IsMasterClient); // called before OnPlayerLeftRoom
+
+
+                LoadArena();
+            }
+        }*/
 
 
         #endregion
@@ -85,4 +99,4 @@ namespace Com.UTD.BasketBall
 
         #endregion
     }
-}
+//}
