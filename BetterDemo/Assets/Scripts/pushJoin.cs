@@ -9,7 +9,7 @@ public class pushJoin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.LogError("Hello");
+        Debug.Log("Hello");
         //x = launcher.transform.position.x;
         //launcher = new Launcher();
         b = true;

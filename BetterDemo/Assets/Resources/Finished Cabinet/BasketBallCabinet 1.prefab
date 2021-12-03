@@ -895,7 +895,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000003054738, y: 0.2000035, z: -0.07900506}
+  m_ConnectedAnchor: {x: -0.0000022128224, y: 0.19999586, z: -0.07901019}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 0.2
@@ -1359,7 +1359,7 @@ Transform:
   m_GameObject: {fileID: 5038153383741594321}
   m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 3289493511506665904}
   - {fileID: 5462662687367697456}

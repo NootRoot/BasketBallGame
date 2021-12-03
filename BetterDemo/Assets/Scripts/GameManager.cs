@@ -8,6 +8,9 @@ using Photon.Realtime;
 //{
     public class GameManager : MonoBehaviourPunCallbacks
     {
+
+        public Score scorer;
+        public GameObject scoreBoard; 
         #region Photon Callbacks
 
 
@@ -98,5 +101,12 @@ using Photon.Realtime;
 
 
         #endregion
+
+    void Start()
+    {
+        scoreBoard = PhotonNetwork.Instantiate("ScoreBoard", new Vector3(-2.26f, 0.16f, -1.16f), Quaternion.identity, 0);
+        scoreBoard.GetComponentInChildren<PlayerScores>().scorer = scorer;
+
+    }
     }
 //}
